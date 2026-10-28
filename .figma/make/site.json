@@ -1,0 +1,10 @@
+{
+  "description": "Creates a visually appealing, user-friendly company website showcasing all activities to attract and engage customers effectively.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
