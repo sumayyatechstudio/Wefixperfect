@@ -175,7 +175,7 @@ const WHY_US = [
   },
 ]
 const MAPS_URL = 'https://www.google.com/maps/search/?api=1&query=Al+Mankhool+Dubai+UAE'
-const GMAIL_URL = 'https://mail.google.com/mail/?view=cm&fs=1&to=WEFIXPERFECT.AE@GMAIL.COM'
+const GMAIL_URL = 'https://mail.google.com/mail/?view=cm&fs=1&to=info@wefixperfect.com'
 const NAV_LINKS = [
   { label: 'Home',     href: '#home'     },
   { label: 'Services', href: '#services' },
@@ -267,7 +267,7 @@ function Navbar() {
           <div className="top-contact-links">
             <a href={GMAIL_URL} target="_blank" rel="noopener noreferrer">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7"><path d="M4 4h16v16H4z"/><path d="m4 6 8 7 8-7"/></svg>
-              <span>WEFIXPERFECT.AE@GMAIL.COM</span>
+              <span>info@wefixperfect.com</span>
             </a>
             <span className="top-service-divider" />
             <a href="tel:+971555334802">
@@ -712,7 +712,7 @@ function Contact() {
                 {
                   icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-5 h-5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>,
                   label: 'Email',
-                  value: 'WEFIXPERFECT.AE@GMAIL.COM',
+                  value: 'info@wefixperfect.com',
                   href: GMAIL_URL,
                 },
                 {
